@@ -1,0 +1,240 @@
+{
+  "trained_at": "2026-10-13T17:53:17.104998+00:00",
+  "data": {
+    "bars": 13730,
+    "from": "2024-05-21 04:00:00+00:00",
+    "to": "2026-10-13 17:00:00+00:00",
+    "source": "Yahoo gold tape (fetch_history.py)"
+  },
+  "walk_forward": {
+    "is_from": "2024-05-21 04:00:00+00:00",
+    "is_to": "2026-01-26 12:00:00+00:00",
+    "oos_from": "2026-01-26 13:00:00+00:00",
+    "oos_to": "2026-10-13 17:00:00+00:00"
+  },
+  "params": {
+    "min_atr_usd": 3.0,
+    "m1_sl_atr": 5.5,
+    "m1_tp1_r": 9.9,
+    "m1_trail_atr": 5.0,
+    "m1_time_stop_bars": 96,
+    "m1_min_adx": 0.0,
+    "trail_start_r": 0.0,
+    "m2_enabled": false,
+    "m3_enabled": false,
+    "m4_enabled": false
+  },
+  "metrics_in_sample": {
+    "trades": 128,
+    "win_rate": 41.4,
+    "net": 6.07,
+    "profit_factor": 1.14,
+    "avg_win": 0.95,
+    "avg_loss": -0.59,
+    "max_drawdown_pct": -1.1,
+    "final_balance": 1004.35,
+    "blocks_total": 128,
+    "blocks_hit_target": 0,
+    "blocks_stopped_loss": 0,
+    "days_total": 125,
+    "days_hit_target": 0,
+    "days_loss_capped": 0
+  },
+  "metrics_out_sample": {
+    "trades": 56,
+    "win_rate": 32.1,
+    "net": 0.13,
+    "profit_factor": 1.01,
+    "avg_win": 1.21,
+    "avg_loss": -0.57,
+    "max_drawdown_pct": -0.56,
+    "final_balance": 1000.14,
+    "blocks_total": 56,
+    "blocks_hit_target": 0,
+    "blocks_stopped_loss": 0,
+    "days_total": 55,
+    "days_hit_target": 0,
+    "days_loss_capped": 0
+  },
+  "metrics_full_period": {
+    "trades": 183,
+    "win_rate": 38.3,
+    "net": 9.19,
+    "profit_factor": 1.14,
+    "avg_win": 1.08,
+    "avg_loss": -0.59,
+    "max_drawdown_pct": -1.1,
+    "final_balance": 1009.18,
+    "blocks_total": 183,
+    "blocks_hit_target": 0,
+    "blocks_stopped_loss": 0,
+    "days_total": 180,
+    "days_hit_target": 0,
+    "days_loss_capped": 0
+  },
+  "rails": {
+    "block_target_usd": 20.0,
+    "block_max_loss_usd": 3.0,
+    "day_target_usd": 120.0,
+    "day_max_loss_usd": 5.0,
+    "risk_usd_per_trade": 1.0,
+    "max_attempts_per_block": 3
+  },
+  "top5": [
+    {
+      "params": {
+        "min_atr_usd": 3.0,
+        "m1_sl_atr": 5.5,
+        "m1_tp1_r": 9.9,
+        "m1_trail_atr": 5.0,
+        "m1_time_stop_bars": 96,
+        "m1_min_adx": 0.0,
+        "trail_start_r": 0.0,
+        "m2_enabled": false,
+        "m3_enabled": false,
+        "m4_enabled": false
+      },
+      "oos": {
+        "trades": 56,
+        "win_rate": 32.1,
+        "net": 0.13,
+        "profit_factor": 1.01,
+        "avg_win": 1.21,
+        "avg_loss": -0.57,
+        "max_drawdown_pct": -0.56,
+        "final_balance": 1000.14,
+        "blocks_total": 56,
+        "blocks_hit_target": 0,
+        "blocks_stopped_loss": 0,
+        "days_total": 55,
+        "days_hit_target": 0,
+        "days_loss_capped": 0
+      },
+      "score": 0.3198
+    },
+    {
+      "params": {
+        "min_atr_usd": 3.0,
+        "m1_sl_atr": 5.5,
+        "m1_tp1_r": 9.9,
+        "m1_trail_atr": 5.0,
+        "m1_time_stop_bars": 96,
+        "m1_min_adx": 18.0,
+        "trail_start_r": 0.0,
+        "m2_enabled": false,
+        "m3_enabled": false,
+        "m4_enabled": false
+      },
+      "oos": {
+        "trades": 56,
+        "win_rate": 32.1,
+        "net": 0.13,
+        "profit_factor": 1.01,
+        "avg_win": 1.21,
+        "avg_loss": -0.57,
+        "max_drawdown_pct": -0.56,
+        "final_balance": 1000.14,
+        "blocks_total": 56,
+        "blocks_hit_target": 0,
+        "blocks_stopped_loss": 0,
+        "days_total": 55,
+        "days_hit_target": 0,
+        "days_loss_capped": 0
+      },
+      "score": 0.3198
+    },
+    {
+      "params": {
+        "min_atr_usd": 3.0,
+        "m1_sl_atr": 5.5,
+        "m1_tp1_r": 9.9,
+        "m1_trail_atr": 5.0,
+        "m1_time_stop_bars": 96,
+        "m1_min_adx": 25.0,
+        "trail_start_r": 0.0,
+        "m2_enabled": false,
+        "m3_enabled": false,
+        "m4_enabled": false
+      },
+      "oos": {
+        "trades": 56,
+        "win_rate": 32.1,
+        "net": 0.13,
+        "profit_factor": 1.01,
+        "avg_win": 1.21,
+        "avg_loss": -0.57,
+        "max_drawdown_pct": -0.56,
+        "final_balance": 1000.14,
+        "blocks_total": 56,
+        "blocks_hit_target": 0,
+        "blocks_stopped_loss": 0,
+        "days_total": 55,
+        "days_hit_target": 0,
+        "days_loss_capped": 0
+      },
+      "score": 0.3198
+    },
+    {
+      "params": {
+        "min_atr_usd": 3.0,
+        "m1_sl_atr": 4.5,
+        "m1_tp1_r": 9.9,
+        "m1_trail_atr": 5.0,
+        "m1_time_stop_bars": 96,
+        "m1_min_adx": 0.0,
+        "trail_start_r": 0.0,
+        "m2_enabled": false,
+        "m3_enabled": false,
+        "m4_enabled": false
+      },
+      "oos": {
+        "trades": 57,
+        "win_rate": 31.6,
+        "net": -0.8,
+        "profit_factor": 0.97,
+        "avg_win": 1.45,
+        "avg_loss": -0.69,
+        "max_drawdown_pct": -0.77,
+        "final_balance": 999.18,
+        "blocks_total": 57,
+        "blocks_hit_target": 0,
+        "blocks_stopped_loss": 0,
+        "days_total": 56,
+        "days_hit_target": 0,
+        "days_loss_capped": 0
+      },
+      "score": 0.3137
+    },
+    {
+      "params": {
+        "min_atr_usd": 3.0,
+        "m1_sl_atr": 4.5,
+        "m1_tp1_r": 9.9,
+        "m1_trail_atr": 5.0,
+        "m1_time_stop_bars": 96,
+        "m1_min_adx": 18.0,
+        "trail_start_r": 0.0,
+        "m2_enabled": false,
+        "m3_enabled": false,
+        "m4_enabled": false
+      },
+      "oos": {
+        "trades": 57,
+        "win_rate": 31.6,
+        "net": -0.8,
+        "profit_factor": 0.97,
+        "avg_win": 1.45,
+        "avg_loss": -0.69,
+        "max_drawdown_pct": -0.77,
+        "final_balance": 999.18,
+        "blocks_total": 57,
+        "blocks_hit_target": 0,
+        "blocks_stopped_loss": 0,
+        "days_total": 56,
+        "days_hit_target": 0,
+        "days_loss_capped": 0
+      },
+      "score": 0.3137
+    }
+  ]
+}

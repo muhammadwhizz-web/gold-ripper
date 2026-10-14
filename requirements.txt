@@ -1,0 +1,6 @@
+yfinance>=0.2.40
+pandas>=2.0
+numpy>=1.24
+ccxt>=4.2.0
+python-dotenv>=1.0
+requests>=2.31

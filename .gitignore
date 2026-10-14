@@ -1,0 +1,12 @@
+# runtime noise
+.env
+__pycache__/
+*.pyc
+.venv/
+data/pause.flag
+data/commands.json
+data/commands_status.json
+data/reconcile.json
+data/reconcile_*.json
+data/drift_history*.json
+*.log
